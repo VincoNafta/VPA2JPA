@@ -1,0 +1,2 @@
+username = jozo
+password = heslo
