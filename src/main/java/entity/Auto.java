@@ -53,4 +53,14 @@ public class Auto {
     public void setSpz(String spz) {
         this.spz = spz;
     }
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "id=" + id +
+                ", vyrobca='" + vyrobca + '\'' +
+                ", spz='" + spz + '\'' +
+                ", model='" + model + '\'' +
+                '}';
+    }
 }
